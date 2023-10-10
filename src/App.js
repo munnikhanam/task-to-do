@@ -1,13 +1,12 @@
 import "./App.css";
+import Addtask from "./components/Addtask";
 import Header from "./components/Header";
-// import ShowTask from "./components/ShowTask";
-// import AddTask from "./components/AddTask";
+
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <ShowTask />
-      <AddTask /> */}
+      <Addtask />
     </div>
   );
 }
