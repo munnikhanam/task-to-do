@@ -9,6 +9,7 @@ function Addtask() {
           placeholder="Add Task"
           autoComplete="off"
           name="task"
+          maxLength="25"
         />
         <button type="submit">Add </button>
       </form>
